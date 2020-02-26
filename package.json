@@ -1,0 +1,23 @@
+{
+  "id": "remind",
+  "name": "Remind",
+  "version": ".01",
+  "description": "Remind",
+  "main": "index.js",
+  "author": "Cody Jackson <codyjackson@librem.one>",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://www.remind.com/log_in",
+    "message": "",
+    "popup": [],
+    "hasNotificationSound": true,
+    "hasDirectMessages": true,
+    "hasIndirectMessages": false,
+    "hasTeamID": false,
+    "hasPredefinedUrl": true,
+    "hasCustomUrl": false,
+    "webviewOptions": {
+      "disablewebsecurity": ""
+    }
+  }
+}
